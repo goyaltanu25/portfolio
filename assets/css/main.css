@@ -1,0 +1,178 @@
+.section-style {
+  color: rgb(243, 243, 243);
+  background-color: rgb(53, 52, 52);
+  height: 50vh;
+  display: flex;
+  font-size: 16px;
+}
+
+.hr-line::after {
+  position: absolute;
+  transform: rotate(0);
+  content: "";
+  width: 647px;
+  border: 1px solid rgb(209, 140, 37);
+  margin: 14px 0px;
+}
+.portfolio-header {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.portfolio-content,
+.section-1,
+.section-2,
+.section-3,
+.footer-content {
+  margin: 1rem;
+}
+
+.cover-img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  box-shadow: rgb(12, 12, 12) 2px 5px 5px;
+}
+
+/* .experience-circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+
+.fa{
+  font-size: 70px !important;
+  color: rgb(243, 243, 243);
+}
+
+.exp-circles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.blog-link {
+  color: whitesmoke;
+}
+
+/* section-1 */
+.current-situation {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+.experiences {
+  flex-direction: row;
+  font-size: 16px;
+}
+.bucketlist {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.portfolio-footer {
+  height: 10vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  margin: 0;
+  font-family: cursive;
+}
+@media only screen and (max-width: 610px) {
+  .portfolio-header,
+  .current-situation,
+  .experiences,
+  .bucketlist {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .portfolio-header,
+  .current-situation,
+  .experiences,
+  .bucketlist {
+    padding: 1rem;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* <div class="slider"> 
+                    <div class="slides">
+                      <div id="slide-1">
+                        1
+                      </div>
+                      <div id="slide-2">
+                        2
+                      </div>
+                      <div id="slide-3">
+                        3
+                      </div>
+                      <div id="slide-4">
+                        4
+                      </div>
+                      <div id="slide-5">
+                        5
+                      </div>
+                    </div>
+                  </div> */
+/* .slider {
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+.slides {
+    display: flex;
+    
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    
+    
+    
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    
+    
+    scroll-snap-points-x: repeat(300px);
+    scroll-snap-type: mandatory;
+    
+}
+.slides::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .slides::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+  .slides::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    border-radius: 10px;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+  }
+ */
