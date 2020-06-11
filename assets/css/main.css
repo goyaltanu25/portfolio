@@ -56,12 +56,6 @@
   color: rgb(209, 148, 55);
 }
 
-.exp-circles {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
 @media only screen and (max-width: 610px) {
   .first,
   .second,
