@@ -62,11 +62,7 @@
   .first,
   .second,
   .third,
-  .fourth,
-  .section-0-content,
-  .section-1,
-  .section-2,
-  .section-3 {
+  .fourth{
     padding-top: 1rem;
     height: 120vh;
     display: flex;
@@ -84,13 +80,9 @@
   .first,
   .second,
   .third,
-  .fourth,
-  .section-0-content,
-  .section-1,
-  .section-2,
-  .section-3 {
+  .fourth {
     padding: 1rem;
-    height: 150vh;
+    height: 180vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
