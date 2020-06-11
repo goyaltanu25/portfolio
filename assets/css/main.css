@@ -36,12 +36,13 @@
   background-color: #F2CC8F;
 }
 
+
+
 .section-0-content,
 .section-1,
 .section-2,
 .section-3,
 .footer-content {
-  display: flex;
   margin: 1rem;
 }
 
@@ -57,7 +58,7 @@
   color: rgb(209, 148, 55);
 }
 
-@media only screen and (max-width: 610px) {
+@media only screen and (max-width: 890px) {
   .first,
   .second,
   .third,
@@ -89,7 +90,7 @@
   .section-2,
   .section-3 {
     padding: 1rem;
-    height: 80vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
